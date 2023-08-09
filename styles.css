@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f1f0e8;
+    background-image: url("https://img.freepik.com/premium-vector/white-abstract-background-design_574815-20.jpg?size=626&ext=jpg&ga=GA1.2.630079580.1691594115&semt=ais");
+    background-repeat: no-repeat;
+    background-size: 1250px 600px;
+}
+.nav-bar {
+    width: 330px;
+    background-color: #363636;
+    opacity: 90%;
+    height: 100%;
+    position: fixed;
+    overflow-y: scroll hidden ;
+}
+.nav-bar a {
+    text-align: center;
+    margin-top: 10px;  
+    color: black;  
+    display: block;
+    text-decoration: none;
+    height: 27px;
+    padding-top: 5px;
+    background-color: #f1f0e8;
+    opacity: 60%;
+    width: 230px;
+    margin-left: 50px;
+    border: 1.5px solid black;
+}
+.picture {
+    width: 200px;
+    background-color: white;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 65px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.main {
+    color: black;
+    margin-left: 370px;
+    position: relative;
+    top: 200px;
+}
+.btn {
+    padding: 10px;
+    width: 150px;
+    background-color: #363636;
+    opacity: 80%;
+    color: white;
+    border: 1.5px solid black;
+    cursor: pointer;
+}
