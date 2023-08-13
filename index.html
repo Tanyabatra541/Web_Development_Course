@@ -1,32 +1,30 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My Portfolio</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto+Condensed&display=swap" rel="stylesheet">   
         <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
     <body>
+        <!-- for the navigation bar -->
         <div class = "nav-bar">
-            <img class="picture" src="https://images.unsplash.com/photo-1566847438217-76e82d383f84?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y3V0ZSUyMGtpdHRlbnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60">
-            <a href="#section0">Home</a>
-            <a href="#section1">About me</a>
-            <a href="#section2">Education</a>
-            <a href="#section3">Work Experience</a>
-            <a href="#">Skills</a>
-            <a href="#">Projects</a>
-            <a href="#">Extracurricular Activities</a>
-            <a href="#">Contact</a><br>
+                <img src="https://images.unsplash.com/photo-1566847438217-76e82d383f84?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y3V0ZSUyMGtpdHRlbnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60">
+                <a href="#section0">Home</a>
+                <a href="#section1">About me</a>
+                <a href="#section2">Education</a>
+                <a href="#section3">Work Experience</a>
+                <a href="#section4">Skills</a>
+                <a href="#section5">Projects</a>
         </div>
-        <div class="scroll">
-            <section id="section0" class="main">
-                <h1>Hi,</h1> 
-                <h1>I am Tanya Sanjay Batra!</h1>
-                <h2 style="position: relative; top: 200px;">I'm a Web Developer</h2><br>
-                <button class="btn">Contact me!</button><br>
+        <!-- for the rest of the screen other than navigation bar -->
+        <div class="content">
+            <section id="section0" class="slides home">
+                <h1>Hi,</h1><br>
+                <h1>I am Tanya Sanjay Batra!</h1><br>
+                <h1>I'm a Web Developer</h1><br><br>
+                <a href="#section6" class="btn">Contact me!</a><br>
             </section>
-            <section id="section1" class="about">
+            <section id="section1" class="slides about">
                 <h1>About Me</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, quam vel ultricies 
                     finibus, arcu risus dignissim elit, eget hendrerit mi dolor nec lorem. Proin accumsan dui 
@@ -36,7 +34,7 @@
                     quam, in sollicitudin odio libero et lectus. Nulla auctor vel velit at tincidunt. Suspendisse 
                     potenti.</p>
             </section>
-            <section id="section2" class="edu">
+            <section id="section2" class="slides edu">
                 <h1>Education</h1><br>
                 <details class="edu-menu">
                     <summary class="edu-menu-items">High School Secondary Education</summary>
@@ -74,12 +72,12 @@
                     </div>
                 </details>
             </section>
-            <section id="section3" class="work">
+            <section id="section3" class="slides exp">
                 <h1>Work Experience</h1>
                 <img src="https://img.icons8.com/?size=512&id=9489&format=png" height="30px" width="30px">
-                <div class="work-content-box">
-                    <div class="work-content">
-                        <p style="font-size: 13px;">2017-2018</p>
+                <div class="content-box">
+                    <div class="content">
+                        <p style="font-size: 20px;">Internship 1</p><p style="font-size: 12px;">2017-2018</p><br>
                         <p style="font-size: 15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                             Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. 
                             Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices 
@@ -87,9 +85,9 @@
                     </div>
                 </div>
                 <img src="https://img.icons8.com/?size=512&id=9489&format=png" height="30px" width="30px">
-                <div class="work-content-box">
-                    <div class="work-content">
-                        <p style="font-size: 13px;">2018-2020</p>
+                <div class="content-box">
+                    <div class="content">
+                        <p style="font-size: 20px;">Internship 2</p><p style="font-size: 12px;">2017-2018</p><br>
                         <p style="font-size: 15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                             Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. 
                             Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices 
@@ -97,16 +95,125 @@
                     </div>
                 </div>
                 <img src="https://img.icons8.com/?size=512&id=9489&format=png" height="30px" width="30px">
-                <div class="work-content-box">
-                    <div class="work-content">
-                        <p style="font-size: 13px;">2020-Present</p>
+                <div class="content-box">
+                    <div class="content">
+                        <p style="font-size: 20px;">Internship 3</p><p style="font-size: 12px;">2017-2018</p><br>
                         <p style="font-size: 15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                             Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. 
                             Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices 
                             elit molestie.</p>
                     </div>
                 </div>
-                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            </section>
+            <section id="section4" class="slides skills">
+                <h1>Skills</h1><br><br>
+                <div class="split left">
+                    <p style="padding-left: 4%;">Skill 1</p>
+                    <div class="skills-bar">
+                        <div class="skills-percentage skill1">50%</div>
+                    </div>
+                    <p style="padding-left: 4%;">Skill 2</p>
+                    <div class="skills-bar">
+                        <div class="skills-percentage skill2">65%</div>
+                    </div>
+                    <p style="padding-left: 4%;">Skill 3</p>
+                    <div class="skills-bar">
+                        <div class="skills-percentage skill3">35%</div>
+                    </div>
+                    <p style="padding-left: 4%;">Skill 4</p>
+                    <div class="skills-bar">
+                        <div class="skills-percentage skill4">70%</div>
+                    </div>
+                </div>
+                <div class="split right">
+                    <p style="padding-left: 4%;">Skill 5</p>
+                    <div class="skills-bar">
+                        <div class="skills-percentage skill5">30%</div>
+                    </div>
+                    <p style="padding-left: 4%;">Skill 6</p>
+                    <div class="skills-bar">
+                        <div class="skills-percentage skill6">60%</div>
+                    </div>
+                    <p style="padding-left: 4%;">Skill 7</p>
+                    <div class="skills-bar">
+                        <div class="skills-percentage skill7">25%</div>
+                    </div>
+                    <p style="padding-left: 4%;">Skill 8</p>
+                    <div class="skills-bar">
+                        <div class="skills-percentage skill8">70%</div>
+                    </div>
+                </div>
+            </section>
+            <section id="section5" class="slides projects">
+                <h1>Projects</h1><br>
+                <div class="project-container">
+                    <div class="project-container-content">
+                        <div class="front">
+                            <h1>Project Name 1</h1>
+                            <p>(Hover on this to see the description!)</p>
+                        </div>
+                        <div class="back">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, quam vel ultricies 
+                                finibus, arcu risus dignissim elit, eget hendrerit mi dolor nec lorem.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-container">
+                    <div class="project-container-content ">
+                        <div class="front">
+                            <h1>Project Name 2</h1>
+                            <p>(Hover on this to see the description!)</p>
+                        </div>
+                        <div class="back">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, quam vel ultricies 
+                                finibus, arcu risus dignissim elit, eget hendrerit mi dolor nec lorem.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-container">
+                    <div class="project-container-content ">
+                        <div class="front">
+                            <h1>Project Name 3</h1>
+                            <p>(Hover on this to see the description!)</p>
+                        </div>
+                        <div class="back">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, quam vel ultricies 
+                                finibus, arcu risus dignissim elit, eget hendrerit mi dolor nec lorem.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-container">
+                    <div class="project-container-content ">
+                        <div class="front">
+                            <h1>Project Name 4</h1>
+                            <p>(Hover on this to see the description!)</p>
+                        </div>
+                        <div class="back">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, quam vel ultricies 
+                                finibus, arcu risus dignissim elit, eget hendrerit mi dolor nec lorem.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-container">
+                    <div class="project-container-content ">
+                        <div class="front">
+                            <h1>Project Name 5</h1>
+                            <p>(Hover on this to see the description!)</p>
+                        </div>
+                        <div class="back">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, quam vel ultricies 
+                                finibus, arcu risus dignissim elit, eget hendrerit mi dolor nec lorem.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="section6" class="slides contact">
+                <h1>Contact</h1><br>
+                <div class="contact-content">
+                    <p>Phone: 0000000000</p><br>
+                    <p>Email: abc@gmail.com</p><br>
+                    <p>LinkedIn: xyz</p>
+                </div>
             </section>
         </div>
     </body>
